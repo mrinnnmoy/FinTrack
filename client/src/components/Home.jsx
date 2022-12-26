@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import About from './About';
+import Services from './Services';
 
 const Home = () => {
     return (
@@ -20,6 +22,9 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <About />
+            <Services />
+            
         </div>
     )
 };
