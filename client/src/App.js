@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import {Route, Switch} from 'react-router';
 // import Login from './components/Login';
 // import Register from './components/Register';
@@ -24,6 +24,7 @@ function App() {
       <Route exact path="/service" component={Services} />
       <Route exact path="/contact" component={Contact} />
     </Switch>
+    <Footer />
     </>
   );
 }
