@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import {Route, Switch} from 'react-router';
 import Login from './components/Login';
-// import Register from './components/Register';
+import Register from './components/Register';
 // import Dashboard from './components/Dashboard';
 // import Logout from './components/Logout';
 // import Protectedroute from './ProtectedRoute';
@@ -24,6 +24,7 @@ function App() {
       <Route exact path="/service" component={Services} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/login" component={Login} />
+      <Route exact path="/register" component={Register} />
     </Switch>
     <Footer />
     </>
