@@ -6,7 +6,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import {Route, Switch} from 'react-router';
-// import Login from './components/Login';
+import Login from './components/Login';
 // import Register from './components/Register';
 // import Dashboard from './components/Dashboard';
 // import Logout from './components/Logout';
@@ -23,6 +23,7 @@ function App() {
       <Route exact path="/about" component={About} />
       <Route exact path="/service" component={Services} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/login" component={Login} />
     </Switch>
     <Footer />
     </>
