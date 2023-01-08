@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import {Route, Switch} from 'react-router';
 import Login from './components/Login';
 import Register from './components/Register';
-// import Dashboard from './components/Dashboard';
+import Dashboard from './components/Dashboard';
 // import Logout from './components/Logout';
 // import Protectedroute from './ProtectedRoute';
 // import { useEffect, useState } from 'react';
@@ -25,6 +25,8 @@ function App() {
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/register" component={Register} />
+      <Route exact path="/dashboard" component={Dashboard} />
+      {/* <Route exact path="/logout" component={Logout} /> */}
     </Switch>
     <Footer />
     </>
