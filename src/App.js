@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-      <Navbar auth={auth1} />
+      <Navbar auth={auth1}  />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
@@ -72,3 +72,5 @@ export default App;
 // We need Protected Routes
 
 // We Cant Acces Them If Auth is False
+
+// Now we need to Change Navbar Dynamically
